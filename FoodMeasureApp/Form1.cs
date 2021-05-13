@@ -16,5 +16,16 @@ namespace FoodMeasureApp
         {
             InitializeComponent();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void addNewFoodToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            newFood1.Visible = true;
+            pictureBox1.Visible = false;
+        }
     }
 }
