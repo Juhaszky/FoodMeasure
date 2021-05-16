@@ -84,9 +84,9 @@ namespace FoodMeasureApp
             // 
             // newFood1
             // 
-            this.newFood1.Location = new System.Drawing.Point(0, 0);
+            this.newFood1.Location = new System.Drawing.Point(0, 24);
             this.newFood1.Name = "newFood1";
-            this.newFood1.Size = new System.Drawing.Size(1060, 600);
+            this.newFood1.Size = new System.Drawing.Size(1045, 576);
             this.newFood1.TabIndex = 2;
             this.newFood1.Visible = false;
             // 

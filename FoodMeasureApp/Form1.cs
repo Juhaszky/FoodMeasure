@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace FoodMeasureApp
 {
     public partial class Form1 : Form
     {
+        MySqlConnection Conn;
+        
         public Form1()
         {
             InitializeComponent();
+            Conn = Connection.InitDB();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
